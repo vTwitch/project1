@@ -15,4 +15,4 @@ echo "<html><body><p>Welcome to my webpage! My name is Gavin Leonard and I enjoy
 
 echo "<html><body><h2> </h2></body></html>" | sudo tee -a /var/www/html/index.html
 echo "<html><body><h2>Picture of my guinea pig:</h2></body></html>" | sudo tee -a /var/www/html/index.html
-<img src="https://gleonard.blob.core.windows.net/websiteoneimages/IMG_4861.jpg" alt="Flowers in Chania" width="460" height="345">
+echo "<img src="https://gleonard.blob.core.windows.net/websiteoneimages/IMG_4861.jpg" alt="Flowers in Chania" width="460" height="345">"
